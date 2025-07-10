@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hiii\\Desktop\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\interface\\irsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interface\\irsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\models\\entities\\creatersvprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\creatersvprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\repo\\rsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repo\\rsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\repo\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repo\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\models\\entities\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\models\\entities\\createeventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\createeventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\interface\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interface\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\models\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\models\\entities\\updateeventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\updateeventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\models\\entities\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|c:\\users\\hiii\\desktop\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3061983A-C0F8-4260-A328-B7F2838D894C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRsvpRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Interface\\IRsvpRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interface\\IRsvpRepository.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Interface\\IRsvpRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interface\\IRsvpRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:53:10.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:42:10.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateRsvpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\CreateRsvpRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\CreateRsvpRequest.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\CreateRsvpRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\CreateRsvpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:45:04.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RsvpRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Repo\\RsvpRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repo\\RsvpRepository.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Repo\\RsvpRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repo\\RsvpRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:55:44.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA8wCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:29:15.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Repo\\UserRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repo\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Repo\\UserRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repo\\UserRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowDwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T09:00:33.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RsvpController.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\RsvpController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RsvpController.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\RsvpController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\RsvpController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA8wA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:05:33.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Repo\\EventRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repo\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Repo\\EventRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repo\\EventRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:08:19.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:52:33.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:22:32.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignupRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\SignupRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\SignupRequest.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\SignupRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\SignupRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T15:27:35.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\EventController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\EventController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:00:28.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateEventRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\CreateEventRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\CreateEventRequest.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\CreateEventRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\CreateEventRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:00:47.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:42:15.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:20:21.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Interface\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interface\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Interface\\IEventRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interface\\IEventRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:05:28.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\Event.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\Event.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\Event.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:08:45.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateEventRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\UpdateEventRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\UpdateEventRequest.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\UpdateEventRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\UpdateEventRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:38:35.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-12T14:37:42.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\Models\\Entities\\LoginRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T12:51:48.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\hiii\\Desktop\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T13:49:06.481Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
