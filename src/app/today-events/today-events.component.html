@@ -1,0 +1,26 @@
+<h3>Todays Events</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Event Title</th>
+      <th>Time</th>
+      <th>Location</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (event of events; track event.title) {
+      <tr>
+        <td>{{ event.title }}</td>
+        <td>{{ event.time }}</td>
+        <td>{{ event.location }}</td>
+        <td>
+          <button title="Edit">
+            ✏️
+          </button>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

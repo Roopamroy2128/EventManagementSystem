@@ -1,0 +1,61 @@
+<div class="main-container">
+  <aside class="sidebar">
+  
+    <button class="nav-btn dashboard-btn">Dashboard</button>
+    <button class="nav-btn" [routerLink]="['/create-event']">Create Event</button>
+   <!-- <button class="nav-btn" [routerLink]="['/view-event']">Manage Event</button> -->
+    <button class="nav-btn" [routerLink]="['/client-table']">Users</button>
+    <button class="nav-btn" [routerLink]="['/event-table']">Manage Events</button>
+    <button class="nav-btn" [routerLink]="['/analytics']">Overal analytics</button>
+
+  </aside>
+
+  <section class="content">
+    <div class="top-bar">
+
+      <div class="stats">
+        <div class="stat-box">Total Events : {{ totalEvents }}</div>
+        <div class="stat-box">Upcoming Events : {{ upcomingEvents }}</div>
+        <div class="stat-box">Total users : {{ totalUsers }}</div>
+      </div>
+
+      <div class="profile">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" class="avatar" alt="User">
+        <span>{{ userName }}</span>
+      </div>
+<button class="logout-btn" (click)="logout()">Logout</button>
+
+    </div>
+
+    <div class="events-section">
+      <h3>TODAYS EVENTS</h3>
+      <table class="events-table">
+        <thead>
+          <tr>
+            <th>Event Title</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+              <tr *ngFor="let event of events">
+                  <td>{{ event.title }}</td>
+                  <td>{{ event.startTime | date: 'mediumDate' }}</td>
+                   <td>
+                      {{ event.startTime | date: 'shortTime' }} - {{ event.endTime | date: 'shortTime' }}
+                    </td> 
+                 <!-- <td>{{ event.endTime | date: 'shortTime' }}</td>    -->
+                  <td>{{ event.location }}</td>
+                  <td>
+                    <a [routerLink]="['/view-event', event.eventId]">
+                      <i class="edit-icon">✎</i>
+                    </a>
+                  </td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>

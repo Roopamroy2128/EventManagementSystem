@@ -1,0 +1,89 @@
+.form-title {
+  text-align: center;
+  font-size: 24px; /* slightly smaller for compactness */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2a47ea; /* theme blue */
+}
+
+.event-form {
+  max-width: 700px;
+  max-height: 50vh; /* as per your requirement */
+  overflow-y: auto; /* scroll if content exceeds 50vh */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* tighter spacing for compact layout */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.event-form::-webkit-scrollbar {
+  width: 6px;
+}
+
+.event-form::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+textarea[matInput] {
+  resize: vertical; /* Allow vertical resize only for description */
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+button[mat-raised-button] {
+  min-width: 90px;
+  font-size: 14px;
+}
+
+button[mat-raised-button][color="basic"] {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button[mat-raised-button][color="basic"]:hover {
+  background-color: #e0e0e0;
+}
+
+button[mat-raised-button][color="primary"] {
+  color: white;
+}
+
+button[mat-raised-button][color="primary"]:hover {
+  background-color: #123396;
+}
+
+.mat-datepicker-toggle .mat-icon {
+  font-family: 'Material Icons';
+  font-size: 22px; /* slightly smaller for compact design */
+  color: #2a47ea; /* theme blue */
+}
+
+@media (max-width: 768px) {
+  .event-form {
+    padding: 15px;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  button[mat-raised-button] {
+    width: 100%;
+  }
+}

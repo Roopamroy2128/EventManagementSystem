@@ -1,0 +1,36 @@
+<div class="tab-container">
+  <button [class.active]="selectedTab === 'past'" (click)="selectedTab = 'past'">Upcoming</button>
+  <button [class.active]="selectedTab === 'accepted'" (click)="selectedTab = 'accepted'">Accepted</button>
+  <button [class.active]="selectedTab === 'upcoming'" (click)="selectedTab = 'upcoming'">Past</button>
+</div>
+            <button (click)="logout()">Logout</button>
+
+
+<div class="filters">
+  <input type="text" placeholder="Event Title Search" [(ngModel)]="searchTitle" />
+  <input type="text" placeholder="Venue" [(ngModel)]="searchVenue" />
+  <input type="text" placeholder="Date" [(ngModel)]="searchDate" />
+</div>
+
+<div class="card-grid">
+  <div class="event-card" *ngFor="let event of filteredEvents()">
+    <div class="card-header">{{ event.title }}</div>
+    <div class="card-body">
+      <p>{{ event.description }}</p>
+      <div class="card-details">
+        <div><span>📅</span> {{ event.date }}</div>
+        <div><span>🕒</span> {{ event.time }}</div>
+        <div><span>📍</span> {{ event.venue }}</div>
+        <div><span>🌐</span> {{ event.mode }}</div>
+      </div>
+      <button class="accept-btn" (click)="acceptEvent(event)" [disabled]="event.accepted">
+        {{ event.accepted ? 'Accepted' : 'Accept' }}
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Success Popup -->
+<div class="success-popup" *ngIf="showSuccessPopup">
+  Thank you for accepting the event!
+</div>

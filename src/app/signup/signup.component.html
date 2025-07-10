@@ -1,0 +1,85 @@
+<div class="signup-container">
+    <div class="signup-card">
+      <h1 class="signup-title">Signup Form</h1>
+      
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" formControlName="firstName" required>
+          @if (signupForm.get('firstName')?.hasError('required')) {
+            <div class="error-message">First name is required</div>
+          }
+        </div>
+  
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" formControlName="lastName" required>
+          @if (signupForm.get('lastName')?.hasError('required')) {
+            <div class="error-message">Last name is required</div>
+          }
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" formControlName="email" required>
+          @if (signupForm.get('email')?.hasError('required')) {
+            <div class="error-message">Email is required</div>
+          }
+          @if (signupForm.get('email')?.hasError('email')) {
+            <div class="error-message">Please enter a valid email</div>
+          }
+        </div>
+  
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" formControlName="phone">
+        </div>
+  
+        <div class="form-group">
+          <label for="password">Password</label>
+          <div class="password-input">
+            <input [type]="hidePassword ? 'password' : 'text'" id="password" formControlName="password" required>
+            <button type="button" (click)="hidePassword = !hidePassword" class="toggle-password">
+              <i class="fas" [class.fa-eye]="hidePassword" [class.fa-eye-slash]="!hidePassword"></i>
+            </button>
+          </div>
+          @if (signupForm.get('password')?.hasError('required')) {
+            <div class="error-message">Password is required</div>
+          }
+        </div>
+  
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <div class="password-input">
+            <input [type]="hideConfirmPassword ? 'password' : 'text'" id="confirmPassword" formControlName="confirmPassword" required>
+            <button type="button" (click)="hideConfirmPassword = !hideConfirmPassword" class="toggle-password">
+              <i class="fas" [class.fa-eye]="hideConfirmPassword" [class.fa-eye-slash]="!hideConfirmPassword"></i>
+            </button>
+          </div>
+          @if (signupForm.get('confirmPassword')?.hasError('required')) {
+            <div class="error-message">Please confirm your password</div>
+          }
+          @if (signupForm.hasError('mismatch')) {
+            <div class="error-message">Passwords do not match</div>
+          }
+        </div>
+  
+        <button type="submit" class="signup-button" [disabled]="!signupForm.valid">
+          Signup
+        </button>
+      </form>
+      <div *ngIf="errorMessage" class="error-message">
+  {{ errorMessage }}
+</div>
+    </div>
+    <div class="success-popup" *ngIf="showSuccessPopup">
+        <div class="popup-content">
+          <div class="checkmark-circle">
+            <div class="checkmark"></div>
+          </div>
+          <h2>Congratulations!</h2>
+          <p>Signup is successful</p>
+          <button class="popup-button" (click)="showSuccessPopup = false">OK</button>
+        </div>
+      </div>
+  </div>

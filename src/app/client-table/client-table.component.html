@@ -1,0 +1,46 @@
+<div class="content-container">
+  <div class="search-bar">
+    <i class="material-icons search-icon">search</i>
+    <input type="text" [(ngModel)]="searchQuery" placeholder="Client Search" />
+  </div>
+
+  <table class="client-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let client of filteredClients; let i = index">
+        <tr [class.expanded]="expandedIndex === i">
+          <td>{{ client.first_name }}</td>
+          <td>{{ client.email }}</td>
+          <td>{{ client.phone_number }}</td>
+          <td>
+            <button (click)="toggleExpand(i)">
+              {{ expandedIndex === i ? '▲' : '▼' }}
+            </button>
+          </td>
+        </tr>
+        <tr *ngIf="expandedIndex === i">
+          <td colspan="4">
+            <div class="event-cards">
+              <div
+                class="event-card"
+                *ngFor="let event of client.events; let j = index"
+              >
+                <div>{{ event.title }}</div>
+                <div>{{ event.startTime | date: 'dd/MM/yyyy h:mm a' }}</div>
+
+                <button class="delete-btn" (click)="removeEvent(i, j)">🗑️</button>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>

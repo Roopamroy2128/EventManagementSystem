@@ -1,0 +1,78 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 6px;
+  max-width: 300px;
+  margin-bottom: 16px;
+  background-color: #fff;
+   margin: 20px 0 16px 0; /* 👈 This adds space on top (20px) */
+}
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 18px;
+}
+.search-icon {
+  font-size: 20px;
+  color: #666;
+}
+
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client-table th,
+.client-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.client-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.client-table .expanded {
+  background-color: #007bff;
+  font-weight: bold;
+  color: white;
+}
+
+.event-cards {
+  display: flex;
+  gap: 20px;
+  padding: 10px 5px;
+}
+
+.event-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content-container {
+  max-width: 90%;
+  margin: 0 auto;     /* Centers the content */
+  padding: 0 25px;     /* Adds horizontal padding on smaller screens */
+}

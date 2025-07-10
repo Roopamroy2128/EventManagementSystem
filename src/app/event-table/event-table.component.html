@@ -1,0 +1,50 @@
+<div style="padding: 20px;">
+  <!-- Search Bar and Filters -->
+  <div style="display: flex; gap: 10px; margin-bottom: 20px; align-items: center;">
+    <div style="position: relative; flex-grow: 1;">
+      <input type="text" [(ngModel)]="searchQuery" placeholder="Event Title Search"
+        style="width: 80%; padding: 8px 8px 8px 35px; border: 1px solid #ccc; border-radius: 5px;" />
+      <span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 18px;">🔍</span>
+    </div>
+
+     <input
+    type="text"
+    [(ngModel)]="venueFilter"
+    placeholder="Search Venue"
+    style="padding: 8px; border: 1px solid #ccc; border-radius: 5px; width: 180px;" />
+
+    
+   <mat-form-field appearance="outline" class="date-field">
+        <input
+          matInput
+          [matDatepicker]="picker"
+          [(ngModel)]="dateFilter"
+          placeholder="Date" />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+  </div>
+
+
+  <!-- Table -->
+  <table style="width: 100%; border-collapse: collapse; border: 1px solid #999;">
+  <thead>
+    <tr style="background-color: #007bff; color: white; border: 1px solid #999;">
+      <th style="text-align: left; padding: 12px; border: 1px solid #999;">Event Name</th>
+      <th style="text-align: left; padding: 12px; border: 1px solid #999;">Date</th>
+      <th style="text-align: left; padding: 12px; border: 1px solid #999;">Venue</th>
+      <th style="padding: 12px; border: 1px solid #999;">Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let event of filteredEvents()" style="border: 1px solid #999;">
+      <td style="padding: 12px; border: 1px solid #999;">{{ event.title }}</td>
+      <td style="padding: 12px; border: 1px solid #999;">{{ event.startTime | date: 'shortDate' }}</td>
+      <td style="padding: 12px; border: 1px solid #999;">{{ event.location }}</td>
+      <td style="text-align: center; border: 1px solid #999;">
+          <span style="cursor: pointer;" (click)="deleteEvent(event.eventId)">🗑️</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>

@@ -1,0 +1,53 @@
+
+
+<div class="event-container">
+  <h2>Discussion on <span class="highlight">{{ event?.title }}</span></h2>
+
+  <div class="event-description">
+    <p>
+      {{ event?.description }}
+    </p>
+    <button class="edit-button" (click)="openEditDialog()">
+  <i class="material-icons">edit</i>
+</button>
+  </div>
+
+  <div class="event-info">
+    <div>
+      <i class="material-icons">calendar_today</i>
+      {{ event?.startTime | date: 'fullDate' }} 
+      {{ event?.startTime | date: 'fullTime' }} - {{ event?.endTime | date: 'shortTime' }}
+    </div>
+    <div>
+      <i class="material-icons">access_time</i>
+      {{ getDuration(event?.startTime, event?.endTime) }} Minutes
+    </div>
+    <div>
+      <i class="material-icons">location_on</i>
+      {{ event?.location }}
+    </div>
+  </div>
+
+  <table class="attendee-table">
+  <thead>
+    <tr>
+      <th>User ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of acceptedUsers">
+      <td>{{ user.id }}</td>
+      <td>{{ user.first_name }} {{ user.last_name }}</td>
+      <td>{{ user.email }}</td>
+    </tr>
+  </tbody>
+</table>
+
+  <div class="pagination">
+    <button (click)="goToPage(currentPage - 1)" [disabled]="currentPage === 1">&lt;&lt;</button>
+    <button *ngFor="let page of [1, 2, 3]" (click)="goToPage(page)">{{ page }}</button>
+    <button (click)="goToPage(currentPage + 1)">&gt;&gt;</button>
+  </div>
+</div>
